@@ -35,7 +35,7 @@ export default function Home() {
               {plan.title === "Ultime" ? (<div className="mb-5 p-2 bg-white rounded-lg shadow-def shadow-purple-700/80 w-max">
                 <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path fill="black" d="M12 20.212L2.596 8.923L5.308 3.5h13.384l2.712 5.423zM8.817 8.5h6.366l-2-4h-2.366zm2.683 9.56V9.5H4.392zm1 0l7.108-8.56H12.5zm3.792-9.56h3.766l-2-4h-3.766zm-12.35 0h3.766l2-4H5.942z" /></svg>
               </div>) : (<div className="mb-5 overflow-hidden p-3 bg-blue-700 rounded-lg  w-max relative">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14 14"><g fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round"><path d="M13.48 7.516a6.5 6.5 0 1 1-6.93-7" /><path d="M9.79 8.09A3 3 0 1 1 5.9 4.21M7 7l2.5-2.5m2 .5l-2-.5l-.5-2l2-2l.5 2l2 .5z" /></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 14 14"><g fill="none" stroke="white" strokeLinecap="round" strokeLinejoin="round"><path d="M13.48 7.516a6.5 6.5 0 1 1-6.93-7" /><path d="M9.79 8.09A3 3 0 1 1 5.9 4.21M7 7l2.5-2.5m2 .5l-2-.5l-.5-2l2-2l.5 2l2 .5z" /></g></svg>
                 <div className="rounded-full w-16 h-16 bg-white/20 absolute -top-4 -left-6"></div>
                 <div className="rounded-full w-16 h-16 bg-white/20 absolute top-1.5 -left-3"></div>
               </div>)}
